@@ -110,6 +110,7 @@ It includes structured relational data with sample records for testing and demon
 
 ## 📁 Project Structure & Repository Contents
 
+```text
 VRS-Database-Project/
 │
 ├── Dump database file/
@@ -126,6 +127,7 @@ VRS-Database-Project/
 ├── Final Project report by Talha Irfan.docx   # Detailed academic project report
 │
 └── README.md                    # Project overview and documentation
+```
 
 ---
 
@@ -136,31 +138,31 @@ VRS-Database-Project/
 - MySQL Workbench (or any MySQL client)
 
 ### Step 1: Start MySQL Server
-Ensure that your MySQL Server service is running.
+- Ensure that your MySQL Server service is running.
 
 ### Step 2: Create the Database
-Open **MySQL** or **MySQL Workbench**.
+- Open **MySQL** or **MySQL Workbench**.
 
-#### Option 1: Import Using Database Dump (Recommended)
-- Create the database:
+- #### Option 1: Import Using Database Dump (Recommended)
+  - Create the database:
     ```sql
     CREATE DATABASE VRS;
     USE VRS;
     ```
 
-- Import the dump file:
+  - Import the dump file:
     ```sql
     SOURCE Dump database file/vrs_database_dump.sql;
     ```
 
-#### Option 2: Create Database from Scratch (Using SQL Files)
+- #### Option 2: Create Database from Scratch (Using SQL Files)
 
-- Run the SQL schema and queries file:
+  - Run the SQL schema and queries file:
     ```sql
     SOURCE Query files/VRS_updated.sql;
     ```
 
-- Verify the database:
+  - Verify the database:
     ```sql
     SELECT * FROM Customers;
     SELECT * FROM Vehicles;
