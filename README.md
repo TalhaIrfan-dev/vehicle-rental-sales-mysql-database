@@ -135,39 +135,32 @@ VRS-Database-Project/
 - MySQL Server (8.0 or later recommended)
 - MySQL Workbench (or any MySQL client)
 
----
-
 ### Step 1: Start MySQL Server
 Ensure that your MySQL Server service is running.
-
----
 
 ### Step 2: Create the Database
 Open **MySQL** or **MySQL Workbench**.
 
-### Option 1: Import Using Database Dump (Recommended)
-
-2. Create the database:
+#### Option 1: Import Using Database Dump (Recommended)
+- Create the database:
     ```sql
     CREATE DATABASE VRS;
     USE VRS;
     ```
 
-3. Import the dump file:
+- Import the dump file:
     ```sql
     SOURCE Dump database file/vrs_database_dump.sql;
     ```
 
----
+#### Option 2: Create Database from Scratch (Using SQL Files)
 
-### Option 2: Create Database from Scratch (Using SQL Files)
-
-2. Run the SQL schema and queries file:
+- Run the SQL schema and queries file:
     ```sql
     SOURCE Query files/VRS_updated.sql;
     ```
 
-4. Verify the database:
+- Verify the database:
     ```sql
     SELECT * FROM Customers;
     SELECT * FROM Vehicles;
