@@ -6,7 +6,7 @@
 - [Problem Statement](#-problem-statement)
 - [Features](#features)
 - [Database Schema & Data Overview](#database-schema--data-overview)
-- [Tools & Technologies](#%EF%B8%8F-tools-and-technologies)
+- [Tools & Technologies](#%EF%B8%8F-tools--technologies)
 - [Entity Relationships](#entities--relationships)
 - [Project Structure](#-project-structure--repository-contents)
 - [How to Run the Project](#%EF%B8%8F-how-to-run-the-project)
