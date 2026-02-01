@@ -11,7 +11,7 @@
 - [Project Structure](#-project-structure--repository-contents)
 - [How to Run the Project](#%EF%B8%8F-how-to-run-the-project)
 - [Concepts Applied](#concepts-applied)
-- [Learning Outcomes](learning-outcomes)
+- [Learning Outcomes](#learning-outcomes)
 - [Future Work](#-future-work)
 - [Author](#-author) 
 
